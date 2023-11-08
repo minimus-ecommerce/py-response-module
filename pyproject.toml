@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "minimus-py-response-module"
+version = "0.1.0"
+description = ""
+authors = ["Akash NP <akashnp1998@gmail.com>"]
+readme = "README.md"
+packages = [{include = "minimus_py_response_module"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.104.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
